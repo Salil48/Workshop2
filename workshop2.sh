@@ -1,9 +1,10 @@
 echo "Welcome to Workshop2"
 
-for ((i=1; i<=20; i++))
+for((i=1;i<=20;i++))
 do
 echo $i
-arr[$i]=$i
-((i++))
+arr[$j]=$i
+((j++))
 done
-echo "No. in arrary are ${arr[@]}"
+
+echo "Number in arrary are ${arr[@]}"
